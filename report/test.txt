@@ -1,0 +1,43 @@
+training vsm...
+anger 0.722567287784679
+anger {'anger': 1745, 'joy': 201, 'sadness': 469}
+joy 0.8548830811554333
+joy {'anger': 60, 'joy': 1243, 'sadness': 151}
+sadness 0.7779193205944799
+sadness {'anger': 265, 'joy': 258, 'sadness': 1832}
+
+
+
+training nb...
+sadness 0.8437367303609342
+sadness {'sadness': 1987, 'anger': 5, 'joy': 363}
+anger 0.7573498964803312
+anger {'sadness': 422, 'anger': 1829, 'joy': 164}
+joy 0.9993122420907841
+joy {'sadness': 1, 'anger': 0, 'joy': 1453}
+
+
+
+anger 0.9697722567287784
+anger {'anger': 2342, 'joy': 8, 'sadness': 65}
+joy 0.9793672627235214
+joy {'anger': 12, 'joy': 1424, 'sadness': 18}
+sadness 0.9609341825902336
+sadness {'anger': 70, 'joy': 22, 'sadness': 2263}
+
+
+Training ISEAR 7000+ sentences
+Testing SemVal 1000 sentences
+
+training vsm...
+361 816
+0.43691620503
+
+training svm...
+334 816
+0.40390786897
+
+training nb...
+389 816
+0.459773914584
+
